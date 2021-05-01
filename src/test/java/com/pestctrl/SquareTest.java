@@ -7,15 +7,25 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SquareTest {
+    Square theSquare = null;
 
     @Test
     void CanaryTest() {
         assert(true);
     }
 
+    @BeforeEach
+    void setUp() {
+        theSquare = new Square();
+    }
+
+    @AfterEach
+    void tearDown() {
+        return;
+    }
+
     @Test
     void testToString() {
-        Square sq = new Square();
-        assert(sq.toString() == "I am a square!");
+        assert(theSquare.toString() == "I am a square!");
     }
 }
