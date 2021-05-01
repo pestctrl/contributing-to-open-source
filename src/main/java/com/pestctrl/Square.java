@@ -11,6 +11,10 @@ class Square {
         return sideLength * sideLength;
     }
 
+    public int perimeter() {
+        return area();
+    }
+
     public String toString() {
         return "I am a square!";
     }

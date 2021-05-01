@@ -39,4 +39,9 @@ class SquareTest {
         Square biggerSquare = new Square(8);
         assert(biggerSquare.area() == 64);
     }
+
+    @Test
+    void testPerimeter() {
+        assert(theSquare.perimeter() == 16);
+    }
 }
