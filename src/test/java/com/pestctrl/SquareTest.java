@@ -33,4 +33,10 @@ class SquareTest {
     void testArea() {
         assert(theSquare.area() == 16);
     }
+
+    @Test
+    void testAreaBigger() {
+        Square biggerSquare = new Square(8);
+        assert(biggerSquare.area() == 64);
+    }
 }
