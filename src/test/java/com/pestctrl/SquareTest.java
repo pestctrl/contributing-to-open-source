@@ -28,4 +28,9 @@ class SquareTest {
     void testToString() {
         assert(theSquare.toString() == "I am a square!");
     }
+
+    @Test
+    void testArea() {
+        assert(theSquare.area() == 16);
+    }
 }
