@@ -16,7 +16,7 @@ class SquareTest {
 
     @BeforeEach
     void setUp() {
-        theSquare = new Square();
+        theSquare = new Square(4);
     }
 
     @AfterEach
