@@ -12,4 +12,9 @@ class SquareTest {
     void CanaryTest() {
         assert(true);
     }
+
+    @Test
+    void falseFail() {
+        assert(false);
+    }
 }
