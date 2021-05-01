@@ -14,7 +14,8 @@ class SquareTest {
     }
 
     @Test
-    void falseFail() {
-        assert(false);
+    void testToString() {
+        Square sq = new Square();
+        assert(sq.toString() == "I am a square!");
     }
 }
