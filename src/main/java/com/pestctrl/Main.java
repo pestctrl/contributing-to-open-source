@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Square> squares = new ArrayList<Square>();
+        ArrayList<Shape> squares = new ArrayList<Shape>();
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Hello, I sum up properties of shapes!");

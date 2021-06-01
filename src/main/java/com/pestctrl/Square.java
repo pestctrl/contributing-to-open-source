@@ -1,6 +1,6 @@
 package com.pestctrl;
 
-class Square {
+class Square implements Shape {
     private int sideLength;
 
     public Square(int a) {
