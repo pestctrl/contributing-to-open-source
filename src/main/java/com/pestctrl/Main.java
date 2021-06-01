@@ -41,5 +41,7 @@ public class Main {
             }
             System.out.println("The sum of perimeters of all the squares is: " + total);
         }
+
+        sc.close();
     }
 }
